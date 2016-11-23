@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>hello world</title>
+<style type='text/css'>
+.hi{font-size:50px;color:#697;margin:20% auto;}
+</style>
+</head>
+<body>
+<script language='javascript'>
+  window.onload=function(){
+        function hi(){
+          var c=document.createElement('h1');
+          c.setAttribute('class','hi');
+          c.innerHTML="Hello World!";
+          document.body.appendChild(c);
+        }
+        hi();
+  }
+</script>
+</body>
+</html>
